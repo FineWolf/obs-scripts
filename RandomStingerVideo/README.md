@@ -16,10 +16,12 @@ This OBS Studio Script automatically sets a new video to a stinger transition ev
 
 1. Store all the video files you want to be part of your rotation within a folder.
 2. Download the `RandomStingerVideo.lua` file to your computer.
+   (Right click on [this link](https://raw.githubusercontent.com/FineWolf/obs-scripts/master/RandomStingerVideo/RandomStingerVideo.lua) › Save link as...)
 3. From the **Scene Transitions** panel in OBS Studio, create a new Stinger transition. Give it any name you want.
-4. Configure the new **Stinger transition** according to the video files you want on rotation.
+4. Configure the new **Stinger transition** according to the video files you want on rotation (you can configure it as
+   if you would configure a normal Stigner transition for one of the videos in the folder).
 5. Open the **Scripts** window (**Tools** Menu › **Scripts**).
-6. Load `RandomStingerVideo.lua` script.
+6. Load the `RandomStingerVideo.lua` script.
 7. In the settings panel on the right side, select the **Stinger transition** configured during **Step 4** in the *Transition* dropdown list.
 8. In the settings panel on the right side, in the *Video folder* input, navigate to the folder created during **Step 1**.
 
